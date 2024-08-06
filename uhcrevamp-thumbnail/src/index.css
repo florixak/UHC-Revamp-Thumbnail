@@ -1,3 +1,16 @@
+@import url("https://fonts.cdnfonts.com/css/minecrafter-alt");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    background-color: black;
+  }
+
+  .gradient-text {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-yellow via-zinc-50 to-yellow;
+    /*@apply text-transparent bg-clip-text bg-gradient-to-r from-zinc-50 via-yellow to-zinc-50;*/
+  }
+}
