@@ -1,11 +1,12 @@
 import { supports } from "../data";
-import List from "./List";
+
 import Section from "./Section";
+import TextList from "./lists/TextList";
 
 const Supports = () => {
   return (
-    <Section title="Supports">
-      <List list={supports} />
+    <Section title="Support">
+      <TextList list={supports} />
     </Section>
   );
 };

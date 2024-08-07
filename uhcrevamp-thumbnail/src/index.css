@@ -6,11 +6,16 @@
 
 @layer base {
   html {
-    background-color: black;
+    background-image: url("./assets/Background.png");
+    background-size: contain;
   }
 
   .gradient-text {
     @apply text-transparent bg-clip-text bg-gradient-to-r from-yellow via-zinc-50 to-yellow;
     /*@apply text-transparent bg-clip-text bg-gradient-to-r from-zinc-50 via-yellow to-zinc-50;*/
+  }
+
+  .gradient-background {
+    @apply bg-gradient-to-tr from-transparent via-transparent to-transparent;
   }
 }

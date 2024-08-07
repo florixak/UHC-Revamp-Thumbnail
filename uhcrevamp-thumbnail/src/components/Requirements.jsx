@@ -1,11 +1,11 @@
 import { requirements } from "../data";
-import List from "./List";
 import Section from "./Section";
+import TextList from "./lists/TextList";
 
 const Requirements = () => {
   return (
     <Section title="Requirements">
-      <List list={requirements} />
+      <TextList list={requirements} />
     </Section>
   );
 };
