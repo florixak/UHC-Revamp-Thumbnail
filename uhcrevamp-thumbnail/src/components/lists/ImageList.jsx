@@ -1,4 +1,9 @@
 import Test from "../../assets/test.jpg";
+import Kits from "../../assets/kits.png";
+import Perks from "../../assets/perks.png";
+import CustomRecipes from "../../assets/custom-recipes.png";
+import Profile from "../../assets/profile.png";
+import Teams from "../../assets/teams.png";
 
 const List = ({ list }) => {
   return (
@@ -14,7 +19,7 @@ const List = ({ list }) => {
           <img
             className="shadow-zinc-50 shadow-lg border-zinc-50 border-2"
             width={1920}
-            src={Test}
+            src={Kits}
             alt=""
           />
         </li>
