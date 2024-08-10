@@ -1,7 +1,7 @@
 import Logo from "../assets/Logo.png";
 
 const sideTexts = [
-  ["Kits", "Quests", "Perks", "Death Chests"],
+  ["Kits", "Perks", "Quests", "Death Chests"],
   ["Teams", "Statistics", "Recipes"],
 ];
 

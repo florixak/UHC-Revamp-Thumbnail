@@ -4,7 +4,6 @@ import CustomRecipes from "./assets/custom-recipes.png";
 import Recipe from "./assets/recipe.png";
 import Profile from "./assets/profile.png";
 import Teams from "./assets/teams.png";
-import Quests from "./assets/quests-list.png";
 import Quest from "./assets/quest.png";
 import SBTablist from "./assets/sb-tablist.png";
 import DeathChest from "./assets/deathchest.png";
@@ -19,19 +18,24 @@ export const about = {
 
 export const features = [
   {
-    title: "SOLO and TEAMS mode",
+    title: "SOLO and TEAM mode",
     description: "Choose between SOLO or TEAM mode.",
     images: [Teams],
   },
   {
-    title: "Quests, Kits, Perks and Recipes",
-    description: "Customize kits, perks and crafting recipes.",
-    images: [Kits, Perks, CustomRecipes, Recipe],
+    title: "Kits, Perks",
+    description: "Customize kits, perks.",
+    images: [Kits, Perks],
+  },
+  {
+    title: "Custom Recipes",
+    description: "Customize crafting recipes.",
+    images: [CustomRecipes, Recipe],
   },
   {
     title: "Quests",
     description: "Complete quests to earn rewards.",
-    images: [Quests, Quest],
+    images: [Quest],
   },
   {
     title: "UHC Level, Profile And Statistics",
@@ -127,11 +131,11 @@ export const supports = [
   },
   {
     title: "LuckPerms",
-    description: "Utilize advanced permission management.",
+    description: "For permission management.",
   },
   {
     title: "Vault",
-    description: "Reward players with in-game currency.",
+    description: "For managing in-game currency.",
   },
 ];
 
