@@ -11,17 +11,17 @@ import Supports from "./components/Supports";
 
 const App = () => {
   return (
-    <div className="flex flex-col overflow-x-hidden gap-32 mb-52">
+    <div className="flex flex-col overflow-x-hidden gap-56 mb-52">
       <Header />
       <div className="flex flex-col gap-36">
         <About />
         <Features />
         <Supports />
-        <Commands />
+        {/* <Commands />
         <Permissions />
-        <Placeholders />
+        <Placeholders /> */}
         <Requirements />
-        <Config />
+        {/* <Config /> */}
         <Contact />
       </div>
     </div>

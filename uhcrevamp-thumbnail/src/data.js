@@ -1,8 +1,15 @@
 import Kits from "./assets/kits.png";
 import Perks from "./assets/perks.png";
 import CustomRecipes from "./assets/custom-recipes.png";
+import Recipe from "./assets/recipe.png";
 import Profile from "./assets/profile.png";
 import Teams from "./assets/teams.png";
+import Quests from "./assets/quests-list.png";
+import Quest from "./assets/quest.png";
+import SBTablist from "./assets/sb-tablist.png";
+import DeathChest from "./assets/deathchest.png";
+import OreGen from "./assets/ore-gen.png";
+import Drops from "./assets/drops.png";
 
 export const about = {
   title: "UHC Revamp",
@@ -19,14 +26,12 @@ export const features = [
   {
     title: "Quests, Kits, Perks and Recipes",
     description: "Customize kits, perks and crafting recipes.",
-    images: [Kits, Perks, CustomRecipes],
+    images: [Kits, Perks, CustomRecipes, Recipe],
   },
   {
     title: "Quests",
     description: "Complete quests to earn rewards.",
-    images: [
-      /*Quests*/
-    ],
+    images: [Quests, Quest],
   },
   {
     title: "UHC Level, Profile And Statistics",
@@ -36,17 +41,17 @@ export const features = [
   {
     title: "Scoreboard And Tablist",
     description: "Customize scoreboard and tablist.",
-    images: [],
+    images: [SBTablist],
   },
   {
     title: "Custom Ore Generation And Drops",
     description: "Customize ore generation to suit your preferences.",
-    images: [],
+    images: [OreGen, Drops],
   },
   {
     title: "Death Chests",
     description: "Death chests to store player items after death.",
-    images: [],
+    images: [DeathChest],
   },
 ];
 
