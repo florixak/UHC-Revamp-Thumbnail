@@ -1,4 +1,4 @@
-const TextList = ({ list }) => {
+const CommandList = ({ list }) => {
   return (
     <div className="w-full flex flex-col gap-4 text-center">
       {list.map((item) => (
@@ -6,7 +6,11 @@ const TextList = ({ list }) => {
           key={item.title}
           className="w-full flex flex-row gap-2 text-2xl justify-between"
         >
-          <span className="font-bold">{item.title}</span>{" "}
+          <div className="flex flex-row gap-5 font-bold">
+            <p>{item.command}</p>
+            <p className="text-lg mt-1">{item.aliases}</p>
+          </div>
+
           <p className="text-xl text-right">{item.description}</p>
         </li>
       ))}
@@ -14,4 +18,4 @@ const TextList = ({ list }) => {
   );
 };
 
-export default TextList;
+export default CommandList;
