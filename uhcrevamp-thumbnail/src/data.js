@@ -1,3 +1,9 @@
+import Kits from "./assets/kits.png";
+import Perks from "./assets/perks.png";
+import CustomRecipes from "./assets/custom-recipes.png";
+import Profile from "./assets/profile.png";
+import Teams from "./assets/teams.png";
+
 export const about = {
   title: "UHC Revamp",
   description:
@@ -8,33 +14,39 @@ export const features = [
   {
     title: "SOLO and TEAMS mode",
     description: "Choose between SOLO or TEAM mode.",
+    images: [Teams],
   },
   {
     title: "Quests, Kits, Perks and Recipes",
     description: "Customize kits, perks and crafting recipes.",
+    images: [Kits, Perks, CustomRecipes],
   },
   {
-    title: "Custom Ore Generation And Drops",
-    description: "Customize ore generation to suit your preferences.",
-  },
-  {
-    title: "Workbench and Anvil GUI",
-    description:
-      "Allow players to craft and repair items remotely with virtual workbench and anvil.",
+    title: "Quests",
+    description: "Complete quests to earn rewards.",
+    images: [
+      /*Quests*/
+    ],
   },
   {
     title: "UHC Level, Profile And Statistics",
     description: "Track player performance with detailed statistics.",
+    images: [Profile],
   },
   {
-    title: "Death Chests, Spectator Mode",
-    description:
-      "Allow players to spectate games and events, enhancing the viewing experience.",
+    title: "Scoreboard And Tablist",
+    description: "Customize scoreboard and tablist.",
+    images: [],
   },
   {
-    title: "Customizable Game Settings and Messages",
-    description:
-      "Tailor every aspect of the game to your liking, from border sizes to loot drops.",
+    title: "Custom Ore Generation And Drops",
+    description: "Customize ore generation to suit your preferences.",
+    images: [],
+  },
+  {
+    title: "Death Chests",
+    description: "Death chests to store player items after death.",
+    images: [],
   },
 ];
 

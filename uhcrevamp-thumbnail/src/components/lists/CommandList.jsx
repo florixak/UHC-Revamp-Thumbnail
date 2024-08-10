@@ -3,7 +3,7 @@ const CommandList = ({ list }) => {
     <div className="w-full flex flex-col gap-4 text-center">
       {list.map((item) => (
         <li
-          key={item.title}
+          key={item.title + " " + item.description}
           className="w-full flex flex-row gap-2 text-2xl justify-between"
         >
           <div className="flex flex-row gap-5 font-bold">

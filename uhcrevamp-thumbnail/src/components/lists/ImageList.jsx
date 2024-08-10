@@ -1,10 +1,3 @@
-import Test from "../../assets/test.jpg";
-import Kits from "../../assets/kits.png";
-import Perks from "../../assets/perks.png";
-import CustomRecipes from "../../assets/custom-recipes.png";
-import Profile from "../../assets/profile.png";
-import Teams from "../../assets/teams.png";
-
 const List = ({ list }) => {
   return (
     <div className="w-full flex flex-col gap-20">
@@ -16,12 +9,17 @@ const List = ({ list }) => {
           <h1 className="font-bold font-MinecraftAlt first-letter:text-5xl first-letter:gradient-text outline-black text-3xl">
             {item.title}
           </h1>
-          <img
-            className="shadow-zinc-50 shadow-lg border-zinc-50 border-2"
-            width={1920}
-            src={Kits}
-            alt=""
-          />
+          <div className="flex flex-col">
+            {item.images.map((image) => (
+              <img
+                key={item.title + ":" + image}
+                className="shadow-zinc-50 shadow-lg border-zinc-50 border-2"
+                width={1920}
+                src={image}
+                alt=""
+              />
+            ))}
+          </div>
         </li>
       ))}
     </div>

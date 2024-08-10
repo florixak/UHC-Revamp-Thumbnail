@@ -7,7 +7,7 @@ const Features = () => {
     <Section title="Features">
       <ImageList list={features} />
       <p className="text-center text-2xl">
-        And more like reserved slots, etc...
+        And more like remote anvil, reserved slots, etc...
       </p>
     </Section>
   );
