@@ -9,6 +9,7 @@ import SBTablist from "./assets/sb-tablist.png";
 import DeathChest from "./assets/deathchest.png";
 import OreGen from "./assets/ore-gen.png";
 import Drops from "./assets/drops.png";
+import Stats from "./assets/statistics.png";
 
 export const about = {
   title: "UHC Revamp",
@@ -40,7 +41,7 @@ export const features = [
   {
     title: "UHC Level, Profile And Statistics",
     description: "Track player performance with detailed statistics.",
-    images: [Profile],
+    images: [Profile, Stats],
   },
   {
     title: "Scoreboard And Tablist",
